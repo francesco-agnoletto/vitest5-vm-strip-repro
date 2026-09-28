@@ -1,6 +1,6 @@
 # Vitest 5 vm-pool teardown strips `process` from the context
 
-Run `npm install && npm test` a few times. Most runs report a `ReferenceError: process is not defined` as an "Unhandled Rejection", even though every test passes:
+Run `npm install` to install deps and run `npm test` a few times. Most runs report a `ReferenceError: process is not defined` as an "Unhandled Rejection", even though every test passes:
 
 ```
 ⎯⎯⎯⎯ Unhandled Rejection ⎯⎯⎯⎯⎯
